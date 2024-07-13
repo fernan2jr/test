@@ -22,4 +22,4 @@ jobs:
 
     - name: Test SSH connection
       run: |
-        ssh -o StrictHostKeyChecking=no admin@fernan2jr.es 'echo "SSH connection successful"'
+        ssh -o StrictHostKeyChecking=no admin@137.184.241.129 'echo "SSH connection successful"'
